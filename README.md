@@ -27,10 +27,31 @@ The model will be evaluated on both training and validation datasets. The evalua
 6. Save the Model
 Once the model has been trained and evaluated, we will save it to a file so that it can later be loaded for inference on new data.
 
-## Reference
+### Reference
 In this project, we aim to train a model to predict house prices based on a dataset obtained from Kaggle. The dataset is available from the following link: https://www.kaggle.com/datasets/yasserh/housing-prices-dataset?resource=download
 
 
 ## Project 2: [CIFAR-10](https://github.com/elenshahbazyan/CNN/blob/main/CIFAR10/CIFAR10.ipynb) Image Classification
 ### Description
-This project uses the CIFAR-10 dataset, which contains 60,000 32x32 color images in 10 different classes. The goal is to build a CNN model that can classify images into one of these 10 categories: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.
+This project uses the CIFAR-10 dataset, which contains 60,000 32x32 color images in 10 different classes. The goal is to build a CNN model that can classify images into one of these 10 categories: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck.In this project, we will fine-tune a pre-trained image classification model on the CIFAR-10 dataset. The steps involved in the process are as follows:
+
+1. Fine-Tune the Image Classification Model for CIFAR-10 Dataset
+We will fine-tune a pre-trained model to classify images in the CIFAR-10 dataset, which contains 60,000 32x32 color images in 10 different classes.
+
+2. Use Pre-Trained Models like VGG16 or ResNet18
+We will explore using pre-trained models such as VGG16 or ResNet18 to leverage transfer learning for better model performance.
+
+3. Design and Build a Model with the Best Architecture
+We will experiment with different architectures and fine-tune them to achieve the best accuracy possible. We will also compare the results to established benchmarks and fine-tune the model to reach or exceed these benchmarks.
+
+4. Optimize Hyperparameters
+We will test and tune various hyperparameters (e.g., learning rate, batch size, number of epochs) to achieve the best performance for the model.
+
+5. Evaluate the Model
+After training, we will evaluate the model on both the training and validation sets.
+
+6.Save the Model
+After training and evaluation, we will save the model to a file so that it can later be loaded for inference on new images.
+
+### Reference
+The dataset is available from the following source: https://www.cs.toronto.edu/~kriz/cifar.html
