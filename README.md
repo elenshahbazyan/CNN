@@ -38,8 +38,8 @@ This project uses the CIFAR-10 dataset, which contains 60,000 32x32 color images
 1. Fine-Tune the Image Classification Model for CIFAR-10 Dataset
 We will fine-tune a pre-trained model to classify images in the CIFAR-10 dataset, which contains 60,000 32x32 color images in 10 different classes.
 
-2. Use Pre-Trained Models like VGG16 or ResNet18
-We will explore using pre-trained models such as VGG16 or ResNet18 to leverage transfer learning for better model performance.
+2. Use Pre-Trained Model: ResNet18
+We will use the ResNet18 model, which is a deep residual network. Transfer learning will be applied to leverage the pre-trained weights from ResNet18 and fine-tune the model for improved performance on the CIFAR-10 dataset.
 
 3. Design and Build a Model with the Best Architecture
 We will experiment with different architectures and fine-tune them to achieve the best accuracy possible. We will also compare the results to established benchmarks and fine-tune the model to reach or exceed these benchmarks.
