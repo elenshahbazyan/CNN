@@ -3,7 +3,7 @@ Convolutional Neural Networks (CNNs) are a class of deep learning models particu
 
 
 ## Projects
-## Project 1: [House Price Prediction] (https://github.com/elenshahbazyan/CNN/blob/main/House%20Price%20Prediction/House%20(1).ipynb)
+## Project 1: [House Price](https://github.com/elenshahbazyan/CNN/blob/main/House%20Price%20Prediction/House%20(1).ipynb) Prediction 
 ### Description
 This project uses a Kaggle dataset to predict house prices based on various features such as the number of rooms, square footage, location, and more. The model applies CNNs in a regression context to predict continuous values like house prices.
 ## Project 2: [CIFAR-10](https://github.com/elenshahbazyan/CNN/blob/main/CIFAR10/CIFAR10.ipynb) Image Classification
