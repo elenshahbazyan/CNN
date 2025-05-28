@@ -55,7 +55,7 @@ After training and evaluation, we will save the model to a file so that it can l
 
 ### Reference
 The dataset is available from the following source: https://www.cs.toronto.edu/~kriz/cifar.html
-## Project 3: [YOLO Training](https://github.com/elenshahbazyan/CNN/blob/main/CIFAR10/CIFAR10.ipynb) Pipeline
+## Project 3: [YOLO Training](https://github.com/elenshahbazyan/Convolutional-Neural-Network/tree/main/Pascal%20Voc) Pipeline
 
 An end-to-end object detection training pipeline built on top of Ultralytics YOLOv8, using the Pascal VOC 2012 dataset. This pipeline handles dataset preparation, annotation conversion, hyperparameter tuning with Optuna, model training, evaluation, and metric visualization.
 
