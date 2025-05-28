@@ -89,24 +89,24 @@ YOLOTrainingPipeline/
 ## Requirements
 Install dependencies:
 
--pip install -r requirements.txt
--Required packages include:
+- pip install -r requirements.txt
+- Required packages include:
 
---ultralytics
+-- ultralytics
 
---matplotlib
+-- matplotlib
 
---opencv-python
+-- opencv-python
 
---scikit-learn
+-- scikit-learn
 
---pandas
+-- pandas
 
---optuna
+-- optuna
 
---seaborn
+-- seaborn
 
---pycocotools
+-- pycocotools
 
 ## Dataset
 Download Pascal VOC 2012 from official site or Kaggle.
