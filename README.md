@@ -74,17 +74,17 @@ YOLOTrainingPipeline/
 ├── config.yaml            # YOLO training config (auto-generated)
 ├── README.md              # This file
 ## Features
--Dataset Loader for Pascal VOC 2012
+- Dataset Loader for Pascal VOC 2012
 
--Annotation Converter from VOC XML to YOLO TXT format
+- Annotation Converter from VOC XML to YOLO TXT format
 
--Hyperparameter Tuning using Optuna
+- Hyperparameter Tuning using Optuna
 
--Evaluation Metrics using COCO and Pascal VOC mAP
+- Evaluation Metrics using COCO and Pascal VOC mAP
 
--Loss Curve Visualization with Matplotlib
+- Loss Curve Visualization with Matplotlib
 
--Model Saving and easy access to best.pt
+- Model Saving and easy access to best.pt
 
 ## Requirements
 Install dependencies:
@@ -111,83 +111,24 @@ Install dependencies:
 ## Dataset
 Download Pascal VOC 2012 from official site or Kaggle.
 
-Unzip into a folder:
-
-datasets/VOC2012/
-🛠️ Usage
-python
-Копировать
-Редактировать
-from yolov8_pipeline import YOLOTrainingPipeline
-
-pipeline = YOLOTrainingPipeline(
-    dataset_path='datasets/VOC2012',
-    yolo_output_dir='runs',
-    annotations_output_dir='annotations',
-    model_name='yolov8n.pt',
-    max_epochs=100,
-    patience=20
-)
-
-pipeline.prepare_dataset()
-pipeline.convert_annotations()
-pipeline.create_yolo_config()
-pipeline.tune_hyperparameters(n_trials=25)
-pipeline.train_model()
-pipeline.evaluate_model()
-pipeline.plot_metrics()
-⚙️ Configuration
-A config file like below will be auto-generated:
-
-yaml
-Копировать
-Редактировать
-path: .
-train: images/train
-val: images/val
-test: images/test
-nc: 20
-names: ['aeroplane', 'bicycle', ..., 'tvmonitor']
-📈 Output
+## Output
 After training:
 
-Best model: runs/train/exp/weights/best.pt
+- Best model: runs/train/exp/weights/best.pt
 
-Training logs: results.csv
+- Training logs: results.csv
 
-Evaluation metrics printed & saved
+- Evaluation metrics printed & saved
 
-Loss and metric plots generated
+- Loss and metric plots generated
 
-📊 Evaluation
-Supports:
 
-mAP@50 (Pascal VOC)
 
-mAP@50:95 (COCO)
-
-Precision / Recall
-
-📸 Visualization
+## Visualization
 Training curves:
 
 📉 Box, Class, and DFL Loss
 
 📈 Learning Rate
 
-Example:
 
-(provide image if available)
-
-🧪 Hyperparameter Tuning
-Uses Optuna to find optimal:
-
-Learning rate
-
-Momentum
-
-Weight decay
-
-Batch size
-
-Augmentation params
