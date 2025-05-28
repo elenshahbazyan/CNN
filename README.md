@@ -2,7 +2,7 @@
 Convolutional Neural Networks (CNNs) are a class of deep learning models particularly effective for processing structured grid data, such as images. CNNs are designed to automatically learn spatial hierarchies of features from images through layers of convolutional filters, making them highly effective for image classification, object detection, and other visual tasks.
 
 
-## Projects
+# Projects
 ## Project 1: [House Price](https://github.com/elenshahbazyan/CNN/blob/main/House%20Price%20Prediction/House%20(1).ipynb) Prediction 
 ### Description
 This project uses a Kaggle dataset to predict house prices based on various features such as the number of rooms, square footage, location, and more. The model applies CNNs in a regression context to predict continuous values like house prices.The project consists of several important steps that need to be followed to achieve the best results:
